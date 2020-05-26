@@ -30,8 +30,9 @@ void do_bmi();
 void do_bpl();
 void do_blt();
 void do_bge();
-void do_ble();			//-------
-
+void do_ble();			// -------
+void do_jsr();			//stack pointers
+void do_rts();			// -------------
 void do_nothing();
 
 typedef struct{
